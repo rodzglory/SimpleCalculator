@@ -4,7 +4,6 @@ from string import digits
 from tkinter import StringVar, Tk, Label, Button, Entry
 from tkinter.constants import END, GROOVE, RAISED, SOLID
 from typing import NoReturn, Optional
-from time import sleep
 
 op = ''
 
