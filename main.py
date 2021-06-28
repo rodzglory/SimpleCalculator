@@ -17,14 +17,6 @@ def screen(
     scrn.grid(row=row, column=column, columnspan=columnspan)
     return scrn
 
-# def screen(
-#     master, width: int = 35,
-#     bd: int = 5, columnspan: int = 3,
-#     row: int = 0, column: int = 0
-#     ) -> Label:
-#     global scrn_variable
-#     scrn = Label(master=master, textvariable=scrn_variable)
-
 def show(text: str, scrn: object) -> NoReturn:
     global op
     showing = str(scrn.get())
